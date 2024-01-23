@@ -1,0 +1,2639 @@
+Namespace(backbone='resnet', out_stride=16, dataset='cityscapes', use_sbd=False, workers=6, base_size=513, crop_size=513, sync_bn=False, test=6, freeze_bn=False, loss_type='ce', epochs=120, start_epoch=0, batch_size=24, test_batch_size=24, use_balanced_weights=False, lr=0.01, lr_scheduler='poly', momentum=0.9, weight_decay=0.0005, nesterov=False, no_cuda=False, gpu_ids=[0], seed=1, resume='/home/nikhil/scratch/models/best_deeplabv3plus_mobilenet_cityscapes_os16.pth', checkname='deeplab-resnet', ft=False, base_model='deeplabv3+_mobilenet', eval_interval=1, no_val=False, save_interval=1, densencloss=1e-06, rloss_scale=0.5, sigma_rgb=15.0, sigma_xy=100.0, cuda=True)
+Found 2975 train images
+Found 500 val images
+Found 1525 test images
+DenseNCLoss(sigma_rgb=15.0, sigma_xy=100.0, weight=1e-06, scale_factor=0.5)
+Using poly LR Scheduler!
+=> loaded checkpoint '/home/nikhil/scratch/models/best_deeplabv3plus_mobilenet_cityscapes_os16.pth' (epoch 26000)
+Validation Day time
+Validation:
+[Epoch: 0, numImages:   500]
+Acc:0.9413891574445805, Acc_class:0.714025959717701, mIoU:0.6116928014445155, fwIoU: 0.8963088391074177
+Loss: 0.165
+Night Driving mIOU
+0.28560800864382463
+Dark Zurich mIOU
+0.11998940579705761
+Foggy Driving Dense mIOU
+0.25125957992986964
+Foggy Driving Full mIOU
+0.3610915709586504
+Foggy Zurich mIOU
+0.2642266154456922
+Starting Epoch: 108
+whole data
+
+=>Epoches 108, learning rate = 0.0013,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.940385091981731, Acc_class:0.7141008876653228, mIoU:0.6117222680864243, fwIoU: 0.8947312057613734
+Loss: 0.168
+iteration
+Night Driving mIOU
+0.3021624471284262
+Dark Zurich mIOU
+0.1368000797429069
+Foggy Driving Dense mIOU
+0.2597513746277768
+Foggy Driving Full mIOU
+0.3710739331738678
+Foggy Zurich mIOU
+0.29706209353278645
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.940313458277422, Acc_class:0.7144064300733945, mIoU:0.6117161078558656, fwIoU: 0.8946681695674037
+Loss: 0.168
+iteration
+Night Driving mIOU
+0.30240530848981545
+Dark Zurich mIOU
+0.13681129698955866
+Foggy Driving Dense mIOU
+0.2596475931720478
+Foggy Driving Full mIOU
+0.3711351102280155
+Foggy Zurich mIOU
+0.29636921203054023
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9402440274718854, Acc_class:0.7146604552825379, mIoU:0.6116938892891076, fwIoU: 0.8946030431136162
+Loss: 0.168
+iteration
+Night Driving mIOU
+0.3025802293054992
+Dark Zurich mIOU
+0.13682828427946117
+Foggy Driving Dense mIOU
+0.25957846607519236
+Foggy Driving Full mIOU
+0.37112941710573305
+Foggy Zurich mIOU
+0.2961125522698188
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9401761852108821, Acc_class:0.7148678903693272, mIoU:0.6116594146438464, fwIoU: 0.8945365271375532
+Loss: 0.168
+iteration
+Night Driving mIOU
+0.30278043000039306
+Dark Zurich mIOU
+0.13684907730233348
+Foggy Driving Dense mIOU
+0.25948155262787764
+Foggy Driving Full mIOU
+0.37112056291816314
+Foggy Zurich mIOU
+0.2959392332233655
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.940108553585618, Acc_class:0.7150355899935864, mIoU:0.6115961411198634, fwIoU: 0.8944666504761165
+Loss: 0.168
+iteration
+Night Driving mIOU
+0.3029394993853555
+Dark Zurich mIOU
+0.13686359635442738
+Foggy Driving Dense mIOU
+0.2593514477110163
+Foggy Driving Full mIOU
+0.37113520289281887
+Foggy Zurich mIOU
+0.29560733461232497
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9400446695212139, Acc_class:0.7151770229868105, mIoU:0.611531011386822, fwIoU: 0.8943983020248775
+Loss: 0.168
+iteration
+Night Driving mIOU
+0.30307663615577135
+Dark Zurich mIOU
+0.13689039526154873
+Foggy Driving Dense mIOU
+0.2592171198072324
+Foggy Driving Full mIOU
+0.37113442540007024
+Foggy Zurich mIOU
+0.2952438157547263
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9399834710624848, Acc_class:0.7153063279698352, mIoU:0.6114731077074766, fwIoU: 0.8943310445066041
+Loss: 0.169
+iteration
+Night Driving mIOU
+0.30322938245841136
+Dark Zurich mIOU
+0.136900169097523
+Foggy Driving Dense mIOU
+0.259150480445411
+Foggy Driving Full mIOU
+0.3711247112813563
+Foggy Zurich mIOU
+0.29497983398228284
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9399277754624424, Acc_class:0.7154090935989607, mIoU:0.6114023539785582, fwIoU: 0.8942692518411264
+Loss: 0.169
+iteration
+Night Driving mIOU
+0.30333213558273303
+Dark Zurich mIOU
+0.13685828293393798
+Foggy Driving Dense mIOU
+0.2590668517878091
+Foggy Driving Full mIOU
+0.3711113393470993
+Foggy Zurich mIOU
+0.29455583146784753
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9398775125091738, Acc_class:0.7155056466335615, mIoU:0.6113419029633774, fwIoU: 0.8942137861461595
+Loss: 0.169
+iteration
+Night Driving mIOU
+0.30342910507357235
+Dark Zurich mIOU
+0.1368357388180138
+Foggy Driving Dense mIOU
+0.258973167451677
+Foggy Driving Full mIOU
+0.3711217422411554
+Foggy Zurich mIOU
+0.294428712553369
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9398325066728963, Acc_class:0.7155840232749281, mIoU:0.6112903657991199, fwIoU: 0.8941641624656969
+Loss: 0.169
+iteration
+Night Driving mIOU
+0.3035217679626346
+Dark Zurich mIOU
+0.1368271881342642
+Foggy Driving Dense mIOU
+0.2588960376677811
+Foggy Driving Full mIOU
+0.37110461732566496
+Foggy Zurich mIOU
+0.2941999952577751
+nikil
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9397888699689236, Acc_class:0.7156649256203531, mIoU:0.6112317063265561, fwIoU: 0.8941150585042145
+Loss: 0.169
+iteration
+Night Driving mIOU
+0.30354101294402386
+Dark Zurich mIOU
+0.13683387489439275
+Foggy Driving Dense mIOU
+0.2588501184205407
+Foggy Driving Full mIOU
+0.37111341584683827
+Foggy Zurich mIOU
+0.29404850920243997
+[Epoch: 108, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9397888699689236, Acc_class:0.7156649256203531, mIoU:0.6112317063265561, fwIoU: 0.8941150585042145
+Loss: 0.169
+epoch
+Night Driving mIOU
+0.30354101294402386
+Dark Zurich mIOU
+0.13683387489439275
+Foggy Driving Dense mIOU
+0.2588501184205407
+Foggy Driving Full mIOU
+0.37111341584683827
+Foggy Zurich mIOU
+0.29404850920243997
+whole data
+
+=>Epoches 109, learning rate = 0.0012,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9388492590422719, Acc_class:0.7161628337922341, mIoU:0.6109624351835595, fwIoU: 0.8927016795906211
+Loss: 0.171
+iteration
+Night Driving mIOU
+0.31165820227340746
+Dark Zurich mIOU
+0.15041480016211167
+Foggy Driving Dense mIOU
+0.27956439274221084
+Foggy Driving Full mIOU
+0.3785847627792479
+Foggy Zurich mIOU
+0.3094298445114286
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9388112041853883, Acc_class:0.716217676939591, mIoU:0.6109187571700773, fwIoU: 0.8926571845991422
+Loss: 0.171
+iteration
+Night Driving mIOU
+0.3117507480113126
+Dark Zurich mIOU
+0.15036292880389177
+Foggy Driving Dense mIOU
+0.2794988683289862
+Foggy Driving Full mIOU
+0.3785973857835682
+Foggy Zurich mIOU
+0.3091974863996586
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9387733599642439, Acc_class:0.7162514968503921, mIoU:0.6108584762050593, fwIoU: 0.8926113505659914
+Loss: 0.172
+iteration
+Night Driving mIOU
+0.3118195941173254
+Dark Zurich mIOU
+0.15036027377807792
+Foggy Driving Dense mIOU
+0.27944976658356446
+Foggy Driving Full mIOU
+0.3786091030660112
+Foggy Zurich mIOU
+0.3091589028109912
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9387428441115261, Acc_class:0.716278557449186, mIoU:0.6108064587520355, fwIoU: 0.8925754964770064
+Loss: 0.172
+iteration
+Night Driving mIOU
+0.3118880225460248
+Dark Zurich mIOU
+0.15035602285650027
+Foggy Driving Dense mIOU
+0.27938787552811134
+Foggy Driving Full mIOU
+0.3786167122000414
+Foggy Zurich mIOU
+0.30888929186954145
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9387132673431455, Acc_class:0.716305394366609, mIoU:0.6107523363109529, fwIoU: 0.8925402769828993
+Loss: 0.172
+iteration
+Night Driving mIOU
+0.31190936331974656
+Dark Zurich mIOU
+0.1503443766672426
+Foggy Driving Dense mIOU
+0.2793403966911294
+Foggy Driving Full mIOU
+0.3786344017872832
+Foggy Zurich mIOU
+0.3086591984221599
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9386864376158639, Acc_class:0.7163260855640591, mIoU:0.6107117636009357, fwIoU: 0.8925079921090542
+Loss: 0.172
+iteration
+Night Driving mIOU
+0.3119577025146021
+Dark Zurich mIOU
+0.15035304112217296
+Foggy Driving Dense mIOU
+0.2793096050704566
+Foggy Driving Full mIOU
+0.37864523766562164
+Foggy Zurich mIOU
+0.3085564220141786
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9386624426945724, Acc_class:0.7163527366448242, mIoU:0.6106825218357314, fwIoU: 0.8924795164050883
+Loss: 0.172
+iteration
+Night Driving mIOU
+0.3119866513143386
+Dark Zurich mIOU
+0.15035578297950097
+Foggy Driving Dense mIOU
+0.2792847594499041
+Foggy Driving Full mIOU
+0.3786391574937911
+Foggy Zurich mIOU
+0.30845402214571893
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9386394746225096, Acc_class:0.7163647412995218, mIoU:0.6106398940077825, fwIoU: 0.8924513999105368
+Loss: 0.172
+iteration
+Night Driving mIOU
+0.31201761594979754
+Dark Zurich mIOU
+0.1503650192036873
+Foggy Driving Dense mIOU
+0.27924216744193414
+Foggy Driving Full mIOU
+0.3786343538404077
+Foggy Zurich mIOU
+0.30842862569095975
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9386190692852738, Acc_class:0.7163666703042962, mIoU:0.6105943046004565, fwIoU: 0.8924270030433502
+Loss: 0.172
+iteration
+Night Driving mIOU
+0.31204442292456774
+Dark Zurich mIOU
+0.15037807079418256
+Foggy Driving Dense mIOU
+0.2792158754300341
+Foggy Driving Full mIOU
+0.37862443142725083
+Foggy Zurich mIOU
+0.3083899016518584
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9386019639079523, Acc_class:0.7163803003444484, mIoU:0.6105718531904781, fwIoU: 0.8924064688935713
+Loss: 0.172
+iteration
+Night Driving mIOU
+0.3120609205140131
+Dark Zurich mIOU
+0.1503793892942536
+Foggy Driving Dense mIOU
+0.279175862508805
+Foggy Driving Full mIOU
+0.3786295368836828
+Foggy Zurich mIOU
+0.3083075377147335
+nikil
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9385844986945763, Acc_class:0.7163748066766337, mIoU:0.6105297911801134, fwIoU: 0.8923849712638814
+Loss: 0.172
+iteration
+Night Driving mIOU
+0.31209486432609795
+Dark Zurich mIOU
+0.15036859636146627
+Foggy Driving Dense mIOU
+0.27916319421949437
+Foggy Driving Full mIOU
+0.37862291461906894
+Foggy Zurich mIOU
+0.3081915272751047
+[Epoch: 109, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9385844986945763, Acc_class:0.7163748066766337, mIoU:0.6105297911801134, fwIoU: 0.8923849712638814
+Loss: 0.172
+epoch
+Night Driving mIOU
+0.31209486432609795
+Dark Zurich mIOU
+0.15036859636146627
+Foggy Driving Dense mIOU
+0.27916319421949437
+Foggy Driving Full mIOU
+0.37862291461906894
+Foggy Zurich mIOU
+0.3081915272751047
+whole data
+
+=>Epoches 110, learning rate = 0.0011,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9376310735740281, Acc_class:0.7160677076468088, mIoU:0.6100250926110116, fwIoU: 0.8909000119932927
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.31783757672039475
+Dark Zurich mIOU
+0.16212435220421895
+Foggy Driving Dense mIOU
+0.24964069412831233
+Foggy Driving Full mIOU
+0.3837650300932179
+Foggy Zurich mIOU
+0.31787568549490536
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9376185407475451, Acc_class:0.7160803078436881, mIoU:0.6100160973197379, fwIoU: 0.8908847333542607
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.31784398045262724
+Dark Zurich mIOU
+0.16213408106920774
+Foggy Driving Dense mIOU
+0.24962893123171753
+Foggy Driving Full mIOU
+0.3837592970388572
+Foggy Zurich mIOU
+0.31778232418064495
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9376068329110409, Acc_class:0.7160869669060856, mIoU:0.6100021371299921, fwIoU: 0.8908699798805543
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.31786692206706635
+Dark Zurich mIOU
+0.16212361277122975
+Foggy Driving Dense mIOU
+0.2496223957320828
+Foggy Driving Full mIOU
+0.3837592335992743
+Foggy Zurich mIOU
+0.3176968416965977
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9375945984851886, Acc_class:0.7160846166198915, mIoU:0.6099786366390504, fwIoU: 0.8908545241635163
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.31787395956351944
+Dark Zurich mIOU
+0.16213017360053109
+Foggy Driving Dense mIOU
+0.2496111520048593
+Foggy Driving Full mIOU
+0.38375788725584475
+Foggy Zurich mIOU
+0.3175554632002709
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9375854797129786, Acc_class:0.7160903492857829, mIoU:0.6099661017439647, fwIoU: 0.8908432694963954
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.31788266625455036
+Dark Zurich mIOU
+0.16212089296716414
+Foggy Driving Dense mIOU
+0.24959872432909005
+Foggy Driving Full mIOU
+0.3837561924985944
+Foggy Zurich mIOU
+0.31755453208139217
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.937576641788421, Acc_class:0.7160959714288941, mIoU:0.609959277986938, fwIoU: 0.8908321384565981
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.31788660704413896
+Dark Zurich mIOU
+0.16212377846483442
+Foggy Driving Dense mIOU
+0.2495864173928859
+Foggy Driving Full mIOU
+0.38376513947025925
+Foggy Zurich mIOU
+0.31756367354624543
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9375692081021247, Acc_class:0.7161022143895499, mIoU:0.6099531578382639, fwIoU: 0.890822960871067
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.3178786391795706
+Dark Zurich mIOU
+0.16212267965150493
+Foggy Driving Dense mIOU
+0.24958015251405197
+Foggy Driving Full mIOU
+0.3837557530004836
+Foggy Zurich mIOU
+0.3175527972177762
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.937562792488568, Acc_class:0.7161045322891942, mIoU:0.6099456525502308, fwIoU: 0.8908150564058099
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.31788610777606296
+Dark Zurich mIOU
+0.162129439970011
+Foggy Driving Dense mIOU
+0.24956743504945494
+Foggy Driving Full mIOU
+0.3837553478272094
+Foggy Zurich mIOU
+0.31747452684271577
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9375561486862939, Acc_class:0.7161007503155707, mIoU:0.609933428881741, fwIoU: 0.8908065497638004
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.31788230682726265
+Dark Zurich mIOU
+0.1621288699725715
+Foggy Driving Dense mIOU
+0.24956070243405515
+Foggy Driving Full mIOU
+0.38375969583998915
+Foggy Zurich mIOU
+0.31746374594099064
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.937549461001574, Acc_class:0.7160950985435566, mIoU:0.6099191793472575, fwIoU: 0.8907978380348412
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.31788398359224623
+Dark Zurich mIOU
+0.1621331153706913
+Foggy Driving Dense mIOU
+0.24954445398123667
+Foggy Driving Full mIOU
+0.38375633532148495
+Foggy Zurich mIOU
+0.3174541990529538
+nikil
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.93754433553192, Acc_class:0.7160946096030432, mIoU:0.6099120947400897, fwIoU: 0.8907913958947616
+Loss: 0.175
+iteration
+Night Driving mIOU
+0.3178913197248896
+Dark Zurich mIOU
+0.16213136458782468
+Foggy Driving Dense mIOU
+0.2495324308698058
+Foggy Driving Full mIOU
+0.38374836144639796
+Foggy Zurich mIOU
+0.3174420603593469
+[Epoch: 110, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.93754433553192, Acc_class:0.7160946096030432, mIoU:0.6099120947400897, fwIoU: 0.8907913958947616
+Loss: 0.175
+epoch
+Night Driving mIOU
+0.3178913197248896
+Dark Zurich mIOU
+0.16213136458782468
+Foggy Driving Dense mIOU
+0.2495324308698058
+Foggy Driving Full mIOU
+0.38374836144639796
+Foggy Zurich mIOU
+0.3174420603593469
+whole data
+
+=>Epoches 111, learning rate = 0.0010,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364723049372192, Acc_class:0.7148101920225765, mIoU:0.6084026875381837, fwIoU: 0.8891795175951405
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.32193705179759663
+Dark Zurich mIOU
+0.1733896548739237
+Foggy Driving Dense mIOU
+0.24634370524617777
+Foggy Driving Full mIOU
+0.38826577954789676
+Foggy Zurich mIOU
+0.321846270231301
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364672760089456, Acc_class:0.7148041682536429, mIoU:0.6083926058064008, fwIoU: 0.8891727833895893
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.32193553363130595
+Dark Zurich mIOU
+0.17338471271472322
+Foggy Driving Dense mIOU
+0.24632772137482922
+Foggy Driving Full mIOU
+0.3882675766854996
+Foggy Zurich mIOU
+0.3218338641060669
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364634582361725, Acc_class:0.7148017909935055, mIoU:0.6083876982886293, fwIoU: 0.8891677319608488
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.3219353306819485
+Dark Zurich mIOU
+0.1733821069458533
+Foggy Driving Dense mIOU
+0.24632217225256137
+Foggy Driving Full mIOU
+0.3882689536336956
+Foggy Zurich mIOU
+0.32182057738998443
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364596229104211, Acc_class:0.7147972961097807, mIoU:0.6083810938877209, fwIoU: 0.8891627327892212
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.3219354252361903
+Dark Zurich mIOU
+0.17338821621652162
+Foggy Driving Dense mIOU
+0.24631365116891135
+Foggy Driving Full mIOU
+0.38826332354836535
+Foggy Zurich mIOU
+0.32181073152143497
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364564721508221, Acc_class:0.7147917208665527, mIoU:0.6083738796871628, fwIoU: 0.8891584151307338
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.3219423616991244
+Dark Zurich mIOU
+0.1733966523794667
+Foggy Driving Dense mIOU
+0.2463015134353753
+Foggy Driving Full mIOU
+0.38825940531798936
+Foggy Zurich mIOU
+0.32180299974887927
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364541112752451, Acc_class:0.714789966612178, mIoU:0.6083720396438845, fwIoU: 0.889155266611642
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.3219456560911301
+Dark Zurich mIOU
+0.17339671272914922
+Foggy Driving Dense mIOU
+0.24629307084805685
+Foggy Driving Full mIOU
+0.3882580927701973
+Foggy Zurich mIOU
+0.3217946534240439
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364514958814832, Acc_class:0.7147870928880794, mIoU:0.6083673642357827, fwIoU: 0.8891516467510737
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.32194826573532154
+Dark Zurich mIOU
+0.17340036084383362
+Foggy Driving Dense mIOU
+0.24627979590601246
+Foggy Driving Full mIOU
+0.3882624271897244
+Foggy Zurich mIOU
+0.3217879185839511
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364491525588846, Acc_class:0.7147827326029187, mIoU:0.6083642483848574, fwIoU: 0.8891484088108891
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.3219523181065265
+Dark Zurich mIOU
+0.17339595683936304
+Foggy Driving Dense mIOU
+0.24627505164792263
+Foggy Driving Full mIOU
+0.38826315775613907
+Foggy Zurich mIOU
+0.3217802609479417
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364461509996008, Acc_class:0.7147741468168733, mIoU:0.6083560245848988, fwIoU: 0.8891441440472442
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.32195727241639727
+Dark Zurich mIOU
+0.17339488205197578
+Foggy Driving Dense mIOU
+0.24626738578225257
+Foggy Driving Full mIOU
+0.38826704772003523
+Foggy Zurich mIOU
+0.3216790537569587
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364442903839045, Acc_class:0.7147677019185995, mIoU:0.6083509418596841, fwIoU: 0.8891415814957521
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.321960641368665
+Dark Zurich mIOU
+0.17339745817676472
+Foggy Driving Dense mIOU
+0.2462578189122152
+Foggy Driving Full mIOU
+0.3882663334443712
+Foggy Zurich mIOU
+0.32160610251617194
+nikil
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364422454619363, Acc_class:0.7147616181954601, mIoU:0.6083465470460009, fwIoU: 0.8891385130185013
+Loss: 0.178
+iteration
+Night Driving mIOU
+0.3219632358926768
+Dark Zurich mIOU
+0.17340176647537572
+Foggy Driving Dense mIOU
+0.24625096542874936
+Foggy Driving Full mIOU
+0.3882698109436535
+Foggy Zurich mIOU
+0.32159918610657157
+[Epoch: 111, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9364422454619363, Acc_class:0.7147616181954601, mIoU:0.6083465470460009, fwIoU: 0.8891385130185013
+Loss: 0.178
+epoch
+Night Driving mIOU
+0.3219632358926768
+Dark Zurich mIOU
+0.17340176647537572
+Foggy Driving Dense mIOU
+0.24625096542874936
+Foggy Driving Full mIOU
+0.3882698109436535
+Foggy Zurich mIOU
+0.32159918610657157
+whole data
+
+=>Epoches 112, learning rate = 0.0009,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351990382231724, Acc_class:0.7144430066933776, mIoU:0.6064334449656633, fwIoU: 0.8873162265036214
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.32326110521823587
+Dark Zurich mIOU
+0.18049137348252534
+Foggy Driving Dense mIOU
+0.24316685056702175
+Foggy Driving Full mIOU
+0.38940922667782885
+Foggy Zurich mIOU
+0.3224379118364987
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351977129733132, Acc_class:0.7144382016125032, mIoU:0.6064310406409058, fwIoU: 0.887314369819886
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.32326749141886785
+Dark Zurich mIOU
+0.18049154592574046
+Foggy Driving Dense mIOU
+0.24315901980166865
+Foggy Driving Full mIOU
+0.3894128889151621
+Foggy Zurich mIOU
+0.32243402577662655
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351962472996279, Acc_class:0.7144281537365899, mIoU:0.6064239678872708, fwIoU: 0.8873122656982393
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.3232714681693521
+Dark Zurich mIOU
+0.18049395314682565
+Foggy Driving Dense mIOU
+0.24315242037647936
+Foggy Driving Full mIOU
+0.38940677535024487
+Foggy Zurich mIOU
+0.32243071899512205
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351951502384862, Acc_class:0.7144222135054707, mIoU:0.6064205482506102, fwIoU: 0.8873104530861429
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.3232760998635465
+Dark Zurich mIOU
+0.1804946190641572
+Foggy Driving Dense mIOU
+0.2431459449875953
+Foggy Driving Full mIOU
+0.38940489323889904
+Foggy Zurich mIOU
+0.3224254384882674
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351942462601054, Acc_class:0.7144186891650133, mIoU:0.6064203409921094, fwIoU: 0.8873090811671147
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.32327397522982027
+Dark Zurich mIOU
+0.1804929424108812
+Foggy Driving Dense mIOU
+0.24314245446060884
+Foggy Driving Full mIOU
+0.38940647720182686
+Foggy Zurich mIOU
+0.3224263902715662
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351934651525725, Acc_class:0.7144143656207248, mIoU:0.6064204214381078, fwIoU: 0.8873077463341817
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.32327111609252984
+Dark Zurich mIOU
+0.18049408166803438
+Foggy Driving Dense mIOU
+0.243131763173322
+Foggy Driving Full mIOU
+0.3893999016270758
+Foggy Zurich mIOU
+0.32242197960339164
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351924207503656, Acc_class:0.7144081172427095, mIoU:0.6064163572480206, fwIoU: 0.8873059480746263
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.3232746279938226
+Dark Zurich mIOU
+0.18049247305184687
+Foggy Driving Dense mIOU
+0.24312658995191555
+Foggy Driving Full mIOU
+0.38937626241295786
+Foggy Zurich mIOU
+0.3224453895072994
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351917449607023, Acc_class:0.7144032432084313, mIoU:0.6064152400875237, fwIoU: 0.8873047223404346
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.3232745157765202
+Dark Zurich mIOU
+0.18049332395646786
+Foggy Driving Dense mIOU
+0.2431193076357986
+Foggy Driving Full mIOU
+0.3893795728253641
+Foggy Zurich mIOU
+0.3224412918563097
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351909814061476, Acc_class:0.714397460128427, mIoU:0.6064122927424481, fwIoU: 0.8873033296950932
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.3232748918936769
+Dark Zurich mIOU
+0.18049405517961026
+Foggy Driving Dense mIOU
+0.24311487671558865
+Foggy Driving Full mIOU
+0.38938226558323913
+Foggy Zurich mIOU
+0.32243770184190995
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351903846048866, Acc_class:0.7143901954959365, mIoU:0.606409187182534, fwIoU: 0.8873021495626051
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.323275503256226
+Dark Zurich mIOU
+0.1804960354339417
+Foggy Driving Dense mIOU
+0.24311111569622465
+Foggy Driving Full mIOU
+0.38938069536899605
+Foggy Zurich mIOU
+0.3224303392502875
+nikil
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351898492390495, Acc_class:0.7143832153237498, mIoU:0.6064062323227936, fwIoU: 0.8873011060302467
+Loss: 0.181
+iteration
+Night Driving mIOU
+0.32327180491495505
+Dark Zurich mIOU
+0.18049886240314794
+Foggy Driving Dense mIOU
+0.24310321276023833
+Foggy Driving Full mIOU
+0.38937904286473546
+Foggy Zurich mIOU
+0.3224264743082637
+[Epoch: 112, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9351898492390495, Acc_class:0.7143832153237498, mIoU:0.6064062323227936, fwIoU: 0.8873011060302467
+Loss: 0.181
+epoch
+Night Driving mIOU
+0.32327180491495505
+Dark Zurich mIOU
+0.18049886240314794
+Foggy Driving Dense mIOU
+0.24310321276023833
+Foggy Driving Full mIOU
+0.38937904286473546
+Foggy Zurich mIOU
+0.3224264743082637
+whole data
+
+=>Epoches 113, learning rate = 0.0008,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9340129659286687, Acc_class:0.712159848520541, mIoU:0.6033920932123201, fwIoU: 0.8855406692242329
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.32569273915720304
+Dark Zurich mIOU
+0.18657730321753158
+Foggy Driving Dense mIOU
+0.24139389079477352
+Foggy Driving Full mIOU
+0.3912306164075031
+Foggy Zurich mIOU
+0.32096835210356867
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9340125885396359, Acc_class:0.7121570941108777, mIoU:0.6033922103963357, fwIoU: 0.8855398207716175
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.3256921719594576
+Dark Zurich mIOU
+0.18657939513180036
+Foggy Driving Dense mIOU
+0.24139153433498808
+Foggy Driving Full mIOU
+0.39122999546425424
+Foggy Zurich mIOU
+0.3209673802975785
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9340121760446466, Acc_class:0.7121520693630652, mIoU:0.6033896480139583, fwIoU: 0.8855389613485357
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.325692144293688
+Dark Zurich mIOU
+0.1865809671522396
+Foggy Driving Dense mIOU
+0.24138831376698386
+Foggy Driving Full mIOU
+0.3912321831587791
+Foggy Zurich mIOU
+0.32096468174665593
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9340120970562444, Acc_class:0.7121483284992964, mIoU:0.6033895788534597, fwIoU: 0.8855386779228362
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.3256937162696073
+Dark Zurich mIOU
+0.1865817189588362
+Foggy Driving Dense mIOU
+0.2413830506487706
+Foggy Driving Full mIOU
+0.3912328688466822
+Foggy Zurich mIOU
+0.3209628404736657
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9340120795032661, Acc_class:0.7121456571242945, mIoU:0.6033904297181308, fwIoU: 0.8855384129914212
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.32569755576202536
+Dark Zurich mIOU
+0.18658441511482332
+Foggy Driving Dense mIOU
+0.2413802050209323
+Foggy Driving Full mIOU
+0.39123275367939636
+Foggy Zurich mIOU
+0.32096359288091497
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.934012000514864, Acc_class:0.7121405820586941, mIoU:0.6033897945577016, fwIoU: 0.8855379707632305
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.3256982932048713
+Dark Zurich mIOU
+0.18658237170909867
+Foggy Driving Dense mIOU
+0.2413764914795079
+Foggy Driving Full mIOU
+0.3912313860149722
+Foggy Zurich mIOU
+0.3209619447439089
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9340116933377443, Acc_class:0.7121356701287668, mIoU:0.6033873480269376, fwIoU: 0.8855373402794957
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.3256998477014932
+Dark Zurich mIOU
+0.18658441959870029
+Foggy Driving Dense mIOU
+0.24137181639012853
+Foggy Driving Full mIOU
+0.391230593624709
+Foggy Zurich mIOU
+0.32095689317661313
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.934011473925516, Acc_class:0.7121295117644115, mIoU:0.6033850446751338, fwIoU: 0.8855367452942947
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.325701954771775
+Dark Zurich mIOU
+0.1865861786621126
+Foggy Driving Dense mIOU
+0.24136729409383006
+Foggy Driving Full mIOU
+0.39123305004658926
+Foggy Zurich mIOU
+0.3209579656566695
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9340114563725377, Acc_class:0.7121240212147351, mIoU:0.603384887449155, fwIoU: 0.8855363542984827
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.3257045580909635
+Dark Zurich mIOU
+0.18658684131695855
+Foggy Driving Dense mIOU
+0.24136468292795663
+Foggy Driving Full mIOU
+0.39123148115478645
+Foggy Zurich mIOU
+0.3209555466000332
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.934011544137429, Acc_class:0.7121224197146704, mIoU:0.6033862245535143, fwIoU: 0.8855362320617208
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.3257068387194432
+Dark Zurich mIOU
+0.18658707731045335
+Foggy Driving Dense mIOU
+0.24136113450703733
+Foggy Driving Full mIOU
+0.39122746572313644
+Foggy Zurich mIOU
+0.3209576152569982
+nikil
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9340113773841354, Acc_class:0.7121168257939549, mIoU:0.6033848119024652, fwIoU: 0.885535727787696
+Loss: 0.184
+iteration
+Night Driving mIOU
+0.32571061638076104
+Dark Zurich mIOU
+0.18658626500411313
+Foggy Driving Dense mIOU
+0.2413586776817968
+Foggy Driving Full mIOU
+0.3912293675817223
+Foggy Zurich mIOU
+0.3209554436480028
+[Epoch: 113, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9340113773841354, Acc_class:0.7121168257939549, mIoU:0.6033848119024652, fwIoU: 0.885535727787696
+Loss: 0.184
+epoch
+Night Driving mIOU
+0.32571061638076104
+Dark Zurich mIOU
+0.18658626500411313
+Foggy Driving Dense mIOU
+0.2413586776817968
+Foggy Driving Full mIOU
+0.3912293675817223
+Foggy Zurich mIOU
+0.3209554436480028
+whole data
+
+=>Epoches 114, learning rate = 0.0007,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330230832722592, Acc_class:0.7099739835485334, mIoU:0.6007765395248333, fwIoU: 0.8840916599867491
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.3257253630394093
+Dark Zurich mIOU
+0.18854677379067175
+Foggy Driving Dense mIOU
+0.23928514365599435
+Foggy Driving Full mIOU
+0.3927855725867761
+Foggy Zurich mIOU
+0.3187890280394222
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330230569427919, Acc_class:0.7099707698100386, mIoU:0.6007774015305536, fwIoU: 0.8840913052796938
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.325727069436296
+Dark Zurich mIOU
+0.1885457267347821
+Foggy Driving Dense mIOU
+0.2392835420967215
+Foggy Driving Full mIOU
+0.39278566751858085
+Foggy Zurich mIOU
+0.3187390448049655
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330230306133244, Acc_class:0.7099666321826802, mIoU:0.6007764212686444, fwIoU: 0.8840910615105816
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.3257301229773244
+Dark Zurich mIOU
+0.18854941727207578
+Foggy Driving Dense mIOU
+0.23927968011730988
+Foggy Driving Full mIOU
+0.3927856113311291
+Foggy Zurich mIOU
+0.3187374893869303
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330230306133244, Acc_class:0.7099616961223499, mIoU:0.6007752119161918, fwIoU: 0.8840907547588731
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.3257353494028021
+Dark Zurich mIOU
+0.18855086956144598
+Foggy Driving Dense mIOU
+0.23927915861770904
+Foggy Driving Full mIOU
+0.3927868374044274
+Foggy Zurich mIOU
+0.3187337032134197
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330228989659874, Acc_class:0.709956843941686, mIoU:0.6007736506545869, fwIoU: 0.8840903395884077
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.32573589763154637
+Dark Zurich mIOU
+0.18855193801221778
+Foggy Driving Dense mIOU
+0.2392753681555931
+Foggy Driving Full mIOU
+0.3927873176842564
+Foggy Zurich mIOU
+0.31873126403447016
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330230306133244, Acc_class:0.7099530667736985, mIoU:0.600772989241754, fwIoU: 0.8840902413960153
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.32573573020373536
+Dark Zurich mIOU
+0.18855218692151887
+Foggy Driving Dense mIOU
+0.23927193870763336
+Foggy Driving Full mIOU
+0.39279032382233436
+Foggy Zurich mIOU
+0.3187298185721678
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330228375305635, Acc_class:0.7099497342452833, mIoU:0.6007728208718693, fwIoU: 0.8840896880488913
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.3257349457080512
+Dark Zurich mIOU
+0.18854921179086825
+Foggy Driving Dense mIOU
+0.23926942667016116
+Foggy Driving Full mIOU
+0.39278889559780705
+Foggy Zurich mIOU
+0.3187270258979875
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330229165189656, Acc_class:0.7099450565415389, mIoU:0.6007718141403813, fwIoU: 0.8840895981852116
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.3257336536108515
+Dark Zurich mIOU
+0.18854626328269206
+Foggy Driving Dense mIOU
+0.23926853241240664
+Foggy Driving Full mIOU
+0.392784328393825
+Foggy Zurich mIOU
+0.31872523087203275
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330231096017266, Acc_class:0.7099426172360185, mIoU:0.6007740735762598, fwIoU: 0.8840895763066544
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.32573642663107
+Dark Zurich mIOU
+0.18854622868841886
+Foggy Driving Dense mIOU
+0.23926267101026288
+Foggy Driving Full mIOU
+0.39278402528895723
+Foggy Zurich mIOU
+0.31872319700183194
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330230920487483, Acc_class:0.7099403765525166, mIoU:0.6007746850351762, fwIoU: 0.8840892570702885
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.3257390261196835
+Dark Zurich mIOU
+0.1885465910053291
+Foggy Driving Dense mIOU
+0.2392607702567234
+Foggy Driving Full mIOU
+0.3927835200191562
+Foggy Zurich mIOU
+0.31872207505344624
+nikil
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330229428484331, Acc_class:0.7099361100902177, mIoU:0.6007748590151794, fwIoU: 0.8840887006165298
+Loss: 0.187
+iteration
+Night Driving mIOU
+0.3257391620553135
+Dark Zurich mIOU
+0.18854918487998196
+Foggy Driving Dense mIOU
+0.23925637775221822
+Foggy Driving Full mIOU
+0.39278505750059767
+Foggy Zurich mIOU
+0.3187470306938434
+[Epoch: 114, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9330229428484331, Acc_class:0.7099361100902177, mIoU:0.6007748590151794, fwIoU: 0.8840887006165298
+Loss: 0.187
+epoch
+Night Driving mIOU
+0.3257391620553135
+Dark Zurich mIOU
+0.18854918487998196
+Foggy Driving Dense mIOU
+0.23925637775221822
+Foggy Driving Full mIOU
+0.39278505750059767
+Foggy Zurich mIOU
+0.3187470306938434
+whole data
+
+=>Epoches 115, learning rate = 0.0006,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316506246780235, Acc_class:0.707788664900007, mIoU:0.5973313457337529, fwIoU: 0.8821293468369794
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.3272971264423863
+Dark Zurich mIOU
+0.1917958873242236
+Foggy Driving Dense mIOU
+0.23864480785847952
+Foggy Driving Full mIOU
+0.39415972205562566
+Foggy Zurich mIOU
+0.31923637022008844
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316505720190887, Acc_class:0.7077851413436891, mIoU:0.5973304792615043, fwIoU: 0.882129002515208
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.3272996056813725
+Dark Zurich mIOU
+0.19179690083599676
+Foggy Driving Dense mIOU
+0.23864273667893254
+Foggy Driving Full mIOU
+0.39415691137375164
+Foggy Zurich mIOU
+0.31923648905185514
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316506246780235, Acc_class:0.7077823944253442, mIoU:0.5973308408566889, fwIoU: 0.882128818972808
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.32730151613137604
+Dark Zurich mIOU
+0.19179365633989787
+Foggy Driving Dense mIOU
+0.23864236055640609
+Foggy Driving Full mIOU
+0.39415821158242453
+Foggy Zurich mIOU
+0.31923532488582124
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316507036664258, Acc_class:0.7077786621694313, mIoU:0.5973295198726237, fwIoU: 0.8821287928532257
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.3273018300357372
+Dark Zurich mIOU
+0.19179055677343892
+Foggy Driving Dense mIOU
+0.23864096324925357
+Foggy Driving Full mIOU
+0.39416099059558796
+Foggy Zurich mIOU
+0.31923493506324396
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316507036664258, Acc_class:0.7077762730566481, mIoU:0.5973300928862981, fwIoU: 0.8821286123607686
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.32730674643951263
+Dark Zurich mIOU
+0.1917907699183534
+Foggy Driving Dense mIOU
+0.23863773837109925
+Foggy Driving Full mIOU
+0.39416078340960786
+Foggy Zurich mIOU
+0.31923385759790257
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316507387723822, Acc_class:0.7077733277100359, mIoU:0.5973296349858015, fwIoU: 0.8821284006523412
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.3273078222485782
+Dark Zurich mIOU
+0.19179269976035493
+Foggy Driving Dense mIOU
+0.23863196481364035
+Foggy Driving Full mIOU
+0.3941600546144106
+Foggy Zurich mIOU
+0.3192359843798165
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316508353137627, Acc_class:0.7077693756042871, mIoU:0.5973284331737367, fwIoU: 0.8821283485509869
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.32730806527136
+Dark Zurich mIOU
+0.1917954504753374
+Foggy Driving Dense mIOU
+0.23863006829911804
+Foggy Driving Full mIOU
+0.3941594348968948
+Foggy Zurich mIOU
+0.31923610324607
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316505807955778, Acc_class:0.707765239965545, mIoU:0.5973269728123661, fwIoU: 0.8821277143404175
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.32730998418920504
+Dark Zurich mIOU
+0.19179615814132162
+Foggy Driving Dense mIOU
+0.23862756471630922
+Foggy Driving Full mIOU
+0.3941604680360553
+Foggy Zurich mIOU
+0.3192349467339599
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316503877128169, Acc_class:0.707761530971692, mIoU:0.5973266287043101, fwIoU: 0.8821272103655079
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.32731331067795155
+Dark Zurich mIOU
+0.19179771316149702
+Foggy Driving Dense mIOU
+0.23862692099328284
+Foggy Driving Full mIOU
+0.3941600875339347
+Foggy Zurich mIOU
+0.3192352904708259
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316502823949473, Acc_class:0.7077583356596755, mIoU:0.5973256825006744, fwIoU: 0.8821268185197851
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.32731218099242754
+Dark Zurich mIOU
+0.1917983562404557
+Foggy Driving Dense mIOU
+0.23861989842749243
+Foggy Driving Full mIOU
+0.39416153567341533
+Foggy Zurich mIOU
+0.3192354669644221
+nikil
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316502121830342, Acc_class:0.7077548737230984, mIoU:0.5973249345270556, fwIoU: 0.8821264356259897
+Loss: 0.191
+iteration
+Night Driving mIOU
+0.32731138235790486
+Dark Zurich mIOU
+0.19179997354049444
+Foggy Driving Dense mIOU
+0.23862099368235856
+Foggy Driving Full mIOU
+0.3941573096554888
+Foggy Zurich mIOU
+0.319235956790218
+[Epoch: 115, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9316502121830342, Acc_class:0.7077548737230984, mIoU:0.5973249345270556, fwIoU: 0.8821264356259897
+Loss: 0.191
+epoch
+Night Driving mIOU
+0.32731138235790486
+Dark Zurich mIOU
+0.19179997354049444
+Foggy Driving Dense mIOU
+0.23862099368235856
+Foggy Driving Full mIOU
+0.3941573096554888
+Foggy Zurich mIOU
+0.319235956790218
+whole data
+
+=>Epoches 116, learning rate = 0.0005,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.930897154309408, Acc_class:0.7053072651369078, mIoU:0.5941362434488809, fwIoU: 0.8810808381799206
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.32814469169887633
+Dark Zurich mIOU
+0.19325294896560213
+Foggy Driving Dense mIOU
+0.23833859564506005
+Foggy Driving Full mIOU
+0.3942753343300914
+Foggy Zurich mIOU
+0.31615566880009077
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.930897092873984, Acc_class:0.7053053914855056, mIoU:0.5941365111819937, fwIoU: 0.8810805377398917
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.32814623231842616
+Dark Zurich mIOU
+0.1932520838096752
+Foggy Driving Dense mIOU
+0.2383398653201496
+Foggy Driving Full mIOU
+0.39427541815427714
+Foggy Zurich mIOU
+0.3161553614777281
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308971630858971, Acc_class:0.7053027803748486, mIoU:0.5941366002651901, fwIoU: 0.8810804342707089
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.32814493399854766
+Dark Zurich mIOU
+0.19324998832564041
+Foggy Driving Dense mIOU
+0.23833159687853556
+Foggy Driving Full mIOU
+0.39427313160569877
+Foggy Zurich mIOU
+0.31615424680724435
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308971455329189, Acc_class:0.7052991679843764, mIoU:0.5941347593524843, fwIoU: 0.8810802807539827
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.32814650402267376
+Dark Zurich mIOU
+0.19324668446851637
+Foggy Driving Dense mIOU
+0.23833257756934292
+Foggy Driving Full mIOU
+0.3942712502877181
+Foggy Zurich mIOU
+0.3161534635450241
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308971806388754, Acc_class:0.7052950569805162, mIoU:0.5941346346417401, fwIoU: 0.881080123919732
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.32814574249629197
+Dark Zurich mIOU
+0.1932472463117092
+Foggy Driving Dense mIOU
+0.23832730205008484
+Foggy Driving Full mIOU
+0.39427060582763496
+Foggy Zurich mIOU
+0.3161520999589574
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308971630858971, Acc_class:0.7052928769049341, mIoU:0.594135778599296, fwIoU: 0.8810798138276197
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.32814572830226707
+Dark Zurich mIOU
+0.1932479816609993
+Foggy Driving Dense mIOU
+0.23832601490682503
+Foggy Driving Full mIOU
+0.3942684613262903
+Foggy Zurich mIOU
+0.31615154113920185
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308971718623863, Acc_class:0.7052893763019656, mIoU:0.5941353325618567, fwIoU: 0.8810795942126446
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.32814691756668674
+Dark Zurich mIOU
+0.19324972124235046
+Foggy Driving Dense mIOU
+0.23832579702193543
+Foggy Driving Full mIOU
+0.3942695900483574
+Foggy Zurich mIOU
+0.3161505697229983
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308972420742994, Acc_class:0.7052845589006553, mIoU:0.5941337783317675, fwIoU: 0.8810794351805333
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.328148240855544
+Dark Zurich mIOU
+0.19324969546504742
+Foggy Driving Dense mIOU
+0.238324144800133
+Foggy Driving Full mIOU
+0.3942680398233977
+Foggy Zurich mIOU
+0.316148271231167
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308973737216364, Acc_class:0.7052819074201006, mIoU:0.5941342012055468, fwIoU: 0.8810793965160109
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.32814935195616846
+Dark Zurich mIOU
+0.193251736798319
+Foggy Driving Dense mIOU
+0.23832495717826868
+Foggy Driving Full mIOU
+0.39426832306117016
+Foggy Zurich mIOU
+0.31614885009852717
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308974614865276, Acc_class:0.7052795964817739, mIoU:0.5941348440317681, fwIoU: 0.8810793084409316
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.3281513342623491
+Dark Zurich mIOU
+0.19324196281545544
+Foggy Driving Dense mIOU
+0.23832246568758914
+Foggy Driving Full mIOU
+0.39426745921079626
+Foggy Zurich mIOU
+0.3161474098941659
+nikil
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308974088275929, Acc_class:0.7052774729018585, mIoU:0.5941346283435256, fwIoU: 0.8810790664694527
+Loss: 0.193
+iteration
+Night Driving mIOU
+0.3281513340010703
+Dark Zurich mIOU
+0.19324357626651922
+Foggy Driving Dense mIOU
+0.23831982469482402
+Foggy Driving Full mIOU
+0.39426698215701506
+Foggy Zurich mIOU
+0.3161461953903861
+[Epoch: 116, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9308974088275929, Acc_class:0.7052774729018585, mIoU:0.5941346283435256, fwIoU: 0.8810790664694527
+Loss: 0.193
+epoch
+Night Driving mIOU
+0.3281513340010703
+Dark Zurich mIOU
+0.19324357626651922
+Foggy Driving Dense mIOU
+0.23831982469482402
+Foggy Driving Full mIOU
+0.39426698215701506
+Foggy Zurich mIOU
+0.3161461953903861
+whole data
+
+=>Epoches 117, learning rate = 0.0004,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.929886550362154, Acc_class:0.7027621158435563, mIoU:0.5907181356041056, fwIoU: 0.8796383163892246
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.3253824122466538
+Dark Zurich mIOU
+0.19516591361945235
+Foggy Driving Dense mIOU
+0.23813933434413898
+Foggy Driving Full mIOU
+0.39338130751682887
+Foggy Zurich mIOU
+0.3141171556541191
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9298865942445996, Acc_class:0.7027591883948772, mIoU:0.5907169506356919, fwIoU: 0.8796382014940314
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.3253821838942478
+Dark Zurich mIOU
+0.19516678087124023
+Foggy Driving Dense mIOU
+0.23813838875651372
+Foggy Driving Full mIOU
+0.3933762813217166
+Foggy Zurich mIOU
+0.31411758792814726
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9298868575392736, Acc_class:0.7027569927022825, mIoU:0.5907168038336583, fwIoU: 0.8796383814629933
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.32538279343486903
+Dark Zurich mIOU
+0.19516798092193377
+Foggy Driving Dense mIOU
+0.23813756095529037
+Foggy Driving Full mIOU
+0.3933742605537831
+Foggy Zurich mIOU
+0.31411607791055335
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9298868487627845, Acc_class:0.7027547960929198, mIoU:0.5907173247912899, fwIoU: 0.8796382183597069
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.325383979223945
+Dark Zurich mIOU
+0.19516332778462364
+Foggy Driving Dense mIOU
+0.23813626800785442
+Foggy Driving Full mIOU
+0.39337446112824476
+Foggy Zurich mIOU
+0.3141165001457223
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9298869101982085, Acc_class:0.7027523995919343, mIoU:0.5907166913535474, fwIoU: 0.8796382068487199
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.32538227321651836
+Dark Zurich mIOU
+0.19516468537035167
+Foggy Driving Dense mIOU
+0.23813627090325223
+Foggy Driving Full mIOU
+0.3933736212000479
+Foggy Zurich mIOU
+0.314117673581321
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.929887015516078, Acc_class:0.7027495565617373, mIoU:0.590716114911552, fwIoU: 0.879638133889443
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.3253842799682396
+Dark Zurich mIOU
+0.19516524993792167
+Foggy Driving Dense mIOU
+0.2381353663808713
+Foggy Driving Full mIOU
+0.39337552131343506
+Foggy Zurich mIOU
+0.3141184058988873
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9298869189746976, Acc_class:0.7027474916763906, mIoU:0.5907155719865401, fwIoU: 0.8796378300172754
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.32538145048930084
+Dark Zurich mIOU
+0.19516450506042743
+Foggy Driving Dense mIOU
+0.23813557065255964
+Foggy Driving Full mIOU
+0.3933749575392687
+Foggy Zurich mIOU
+0.31411797511126205
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9298870418455454, Acc_class:0.7027449017191522, mIoU:0.5907153234897617, fwIoU: 0.8796378249953163
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.325382201489457
+Dark Zurich mIOU
+0.19516087378031619
+Foggy Driving Dense mIOU
+0.23813706548697505
+Foggy Driving Full mIOU
+0.39337437818138016
+Foggy Zurich mIOU
+0.31411729516251924
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9298869979630997, Acc_class:0.7027428377120508, mIoU:0.5907148996261948, fwIoU: 0.8796375704337632
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.3253826585885147
+Dark Zurich mIOU
+0.19516202837773494
+Foggy Driving Dense mIOU
+0.23813758048215503
+Foggy Driving Full mIOU
+0.39337719740659977
+Foggy Zurich mIOU
+0.3141175083075756
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.929887076951502, Acc_class:0.7027414084087676, mIoU:0.5907150916446012, fwIoU: 0.8796375300082111
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.3253826752967822
+Dark Zurich mIOU
+0.19516214995837883
+Foggy Driving Dense mIOU
+0.23813835820952414
+Foggy Driving Full mIOU
+0.3933783032537042
+Foggy Zurich mIOU
+0.3141157904297575
+nikil
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9298870506220346, Acc_class:0.7027383888179056, mIoU:0.5907139751550708, fwIoU: 0.8796372688220281
+Loss: 0.196
+iteration
+Night Driving mIOU
+0.32538362433197004
+Dark Zurich mIOU
+0.1951648806456079
+Foggy Driving Dense mIOU
+0.23813801115053282
+Foggy Driving Full mIOU
+0.3933580323081497
+Foggy Zurich mIOU
+0.31411625818011074
+[Epoch: 117, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9298870506220346, Acc_class:0.7027383888179056, mIoU:0.5907139751550708, fwIoU: 0.8796372688220281
+Loss: 0.196
+epoch
+Night Driving mIOU
+0.32538362433197004
+Dark Zurich mIOU
+0.1951648806456079
+Foggy Driving Dense mIOU
+0.23813801115053282
+Foggy Driving Full mIOU
+0.3933580323081497
+Foggy Zurich mIOU
+0.31411625818011074
+whole data
+
+=>Epoches 118, learning rate = 0.0003,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287192246484397, Acc_class:0.6997688018122381, mIoU:0.5867663404669655, fwIoU: 0.8779580140046042
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.3237079364743055
+Dark Zurich mIOU
+0.1969604986288603
+Foggy Driving Dense mIOU
+0.23692645887484082
+Foggy Driving Full mIOU
+0.39237181249543646
+Foggy Zurich mIOU
+0.3123565827513299
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.928719303636842, Acc_class:0.6997679040122251, mIoU:0.5867668519649307, fwIoU: 0.877958037442689
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.3237105590024692
+Dark Zurich mIOU
+0.1969614535679462
+Foggy Driving Dense mIOU
+0.23692626889044663
+Foggy Driving Full mIOU
+0.39237266941245336
+Foggy Zurich mIOU
+0.31235719753546326
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287193650722658, Acc_class:0.6997660927206312, mIoU:0.5867664930673875, fwIoU: 0.8779580019078034
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.3237112602380881
+Dark Zurich mIOU
+0.1969635021728113
+Foggy Driving Dense mIOU
+0.23692128764616255
+Foggy Driving Full mIOU
+0.39237147203857553
+Foggy Zurich mIOU
+0.312357531563081
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287193914017333, Acc_class:0.6997647789096288, mIoU:0.5867665186240663, fwIoU: 0.8779578942373399
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.32371242192198296
+Dark Zurich mIOU
+0.1969646335343455
+Foggy Driving Dense mIOU
+0.2369219387340665
+Foggy Driving Full mIOU
+0.39237033537084776
+Foggy Zurich mIOU
+0.31235828216011297
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287195054960921, Acc_class:0.6997626887945493, mIoU:0.5867660097669177, fwIoU: 0.877957961930373
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.3237143092178205
+Dark Zurich mIOU
+0.1969661937301405
+Foggy Driving Dense mIOU
+0.23692024524019148
+Foggy Driving Full mIOU
+0.39236932504964983
+Foggy Zurich mIOU
+0.31236127484705867
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287194528371572, Acc_class:0.6997610750292926, mIoU:0.586765520099515, fwIoU: 0.8779577806381933
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.3237147577996326
+Dark Zurich mIOU
+0.19696554542831513
+Foggy Driving Dense mIOU
+0.2369200554907941
+Foggy Driving Full mIOU
+0.3923686166130885
+Foggy Zurich mIOU
+0.3123628407667465
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287195932609833, Acc_class:0.6997599339632368, mIoU:0.5867657045713696, fwIoU: 0.8779578402187774
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.32371664473688816
+Dark Zurich mIOU
+0.19696631984186927
+Foggy Driving Dense mIOU
+0.23692031527797383
+Foggy Driving Full mIOU
+0.39236738681001393
+Foggy Zurich mIOU
+0.31236289987454513
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287195406020485, Acc_class:0.6997574287434922, mIoU:0.5867647933541801, fwIoU: 0.8779576034257441
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.3237177442956703
+Dark Zurich mIOU
+0.19696595852667032
+Foggy Driving Dense mIOU
+0.23692009320009863
+Foggy Driving Full mIOU
+0.3923677677193652
+Foggy Zurich mIOU
+0.3123634698473732
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287196810258747, Acc_class:0.6997558598086481, mIoU:0.5867646682430121, fwIoU: 0.8779576845403052
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.32371794387817604
+Dark Zurich mIOU
+0.19696729008742886
+Foggy Driving Dense mIOU
+0.2369179141917888
+Foggy Driving Full mIOU
+0.3923650908951949
+Foggy Zurich mIOU
+0.3123623825179273
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287198828851247, Acc_class:0.6997547226674177, mIoU:0.5867657809127808, fwIoU: 0.8779578348816366
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.3237181200423945
+Dark Zurich mIOU
+0.19696724104505162
+Foggy Driving Dense mIOU
+0.2369163089783434
+Foggy Driving Full mIOU
+0.39236423050323493
+Foggy Zurich mIOU
+0.31236209479048477
+nikil
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287199179910813, Acc_class:0.6997527090586942, mIoU:0.5867651220125719, fwIoU: 0.8779577900254543
+Loss: 0.200
+iteration
+Night Driving mIOU
+0.3237198580620898
+Dark Zurich mIOU
+0.19696737342281753
+Foggy Driving Dense mIOU
+0.23691526813542385
+Foggy Driving Full mIOU
+0.3923644687599085
+Foggy Zurich mIOU
+0.31236326196374586
+[Epoch: 118, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9287199179910813, Acc_class:0.6997527090586942, mIoU:0.5867651220125719, fwIoU: 0.8779577900254543
+Loss: 0.200
+epoch
+Night Driving mIOU
+0.3237198580620898
+Dark Zurich mIOU
+0.19696737342281753
+Foggy Driving Dense mIOU
+0.23691526813542385
+Foggy Driving Full mIOU
+0.3923644687599085
+Foggy Zurich mIOU
+0.31236326196374586
+whole data
+
+=>Epoches 119, learning rate = 0.0001,                 previous best = 0.7207
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279969195927379, Acc_class:0.6986075645727056, mIoU:0.5845138570337847, fwIoU: 0.8769426902390729
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.3224787467192906
+Dark Zurich mIOU
+0.1968066199392168
+Foggy Driving Dense mIOU
+0.23674680150144367
+Foggy Driving Full mIOU
+0.39213710326956336
+Foggy Zurich mIOU
+0.3105329956934386
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279967879454009, Acc_class:0.6986066768002722, mIoU:0.584513682412674, fwIoU: 0.8769424163159252
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.3224795776046704
+Dark Zurich mIOU
+0.19680714423695353
+Foggy Driving Dense mIOU
+0.2367417508884243
+Foggy Driving Full mIOU
+0.39213602052765495
+Foggy Zurich mIOU
+0.31053288810471247
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279969195927379, Acc_class:0.6986056499497784, mIoU:0.584513799999268, fwIoU: 0.8769424993712548
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.3224801553742596
+Dark Zurich mIOU
+0.1968073262689373
+Foggy Driving Dense mIOU
+0.2367415728586654
+Foggy Driving Full mIOU
+0.3921374008991026
+Foggy Zurich mIOU
+0.31053248569290354
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279970073576292, Acc_class:0.6986057198434991, mIoU:0.5845143832411706, fwIoU: 0.8769425444481284
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.322478439833992
+Dark Zurich mIOU
+0.19680704262884274
+Foggy Driving Dense mIOU
+0.23673680816677456
+Foggy Driving Full mIOU
+0.39213647003557073
+Foggy Zurich mIOU
+0.31053219854660014
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279971302284771, Acc_class:0.6986051579408529, mIoU:0.5845147460734761, fwIoU: 0.876942658295923
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.3224784522889994
+Dark Zurich mIOU
+0.19681343108123017
+Foggy Driving Dense mIOU
+0.23673652679199655
+Foggy Driving Full mIOU
+0.39213684114383257
+Foggy Zurich mIOU
+0.3105322703621658
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279970512400749, Acc_class:0.6986043481323495, mIoU:0.5845144109639695, fwIoU: 0.8769424874689956
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.3224780038823079
+Dark Zurich mIOU
+0.19681322589434988
+Foggy Driving Dense mIOU
+0.23673637263883146
+Foggy Driving Full mIOU
+0.39213650671667605
+Foggy Zurich mIOU
+0.31053201056484997
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279970863460314, Acc_class:0.6986031753196457, mIoU:0.5845139830285994, fwIoU: 0.8769424615493651
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.3224782877300353
+Dark Zurich mIOU
+0.19681365593011624
+Foggy Driving Dense mIOU
+0.23673577070188662
+Foggy Driving Full mIOU
+0.39213779569298474
+Foggy Zurich mIOU
+0.31053151327928363
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279971038990097, Acc_class:0.6986022313387332, mIoU:0.584513627297647, fwIoU: 0.876942450620475
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.3224791258514601
+Dark Zurich mIOU
+0.1968140307879472
+Foggy Driving Dense mIOU
+0.23673564700175376
+Foggy Driving Full mIOU
+0.3921377755930975
+Foggy Zurich mIOU
+0.3105305867170143
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279971390049663, Acc_class:0.6986020180543866, mIoU:0.5845145418828884, fwIoU: 0.8769424124629587
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.32247952607286795
+Dark Zurich mIOU
+0.19681402593647412
+Foggy Driving Dense mIOU
+0.23673595512395273
+Foggy Driving Full mIOU
+0.39213940751774196
+Foggy Zurich mIOU
+0.3105306554973194
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279972092168793, Acc_class:0.6986022835343841, mIoU:0.5845154781897415, fwIoU: 0.8769424194481977
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.3224803485323896
+Dark Zurich mIOU
+0.1968147517514681
+Foggy Driving Dense mIOU
+0.2367345218294379
+Foggy Driving Full mIOU
+0.39214055727208014
+Foggy Zurich mIOU
+0.31053078307120663
+nikil
+
+
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279972004403901, Acc_class:0.6986015686822568, mIoU:0.5845154999169381, fwIoU: 0.8769423287273722
+Loss: 0.202
+iteration
+Night Driving mIOU
+0.32248027198758955
+Dark Zurich mIOU
+0.1968146197191338
+Foggy Driving Dense mIOU
+0.2367340801723364
+Foggy Driving Full mIOU
+0.39214028451151595
+Foggy Zurich mIOU
+0.31052987645320446
+[Epoch: 119, numImages:   262]
+Loss: -0.000
+Validation:
+[Epoch: 119, numImages:   500]
+Acc:0.9279972004403901, Acc_class:0.6986015686822568, mIoU:0.5845154999169381, fwIoU: 0.8769423287273722
+Loss: 0.202
+epoch
+Night Driving mIOU
+0.32248027198758955
+Dark Zurich mIOU
+0.1968146197191338
+Foggy Driving Dense mIOU
+0.2367340801723364
+Foggy Driving Full mIOU
+0.39214028451151595
+Foggy Zurich mIOU
+0.31052987645320446

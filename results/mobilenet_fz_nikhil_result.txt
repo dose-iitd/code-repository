@@ -1,0 +1,502 @@
+['pedestrian_20161201_101324_gtFine_labelIds.png', 'pedestrian_20161201_101436_gtFine_labelIds.png', 'pedestrian_20161201_101441_gtFine_labelIds.png', 'pedestrian_20161201_101632_gtCoarse_labelIds.png', 'pedestrian_20161201_101809_gtCoarse_labelIds.png', 'pedestrian_20161201_102211_gtCoarse_labelIds.png', 'pedestrian_20161201_102320_gtFine_labelIds.png', 'pedestrian_20161201_102527_gtCoarse_labelIds.png', 'pedestrian_20161212_094201_gtCoarse_labelIds.png', 'pedestrian_20161212_094324_gtCoarse_labelIds.png', 'pedestrian_20161212_094325_gtCoarse_labelIds.png', 'pedestrian_20161212_094402_gtCoarse_labelIds.png', 'pedestrian_20161212_094456_gtCoarse_labelIds.png', 'pedestrian_20161212_094549_gtCoarse_labelIds.png', 'pedestrian_20161212_094633_gtCoarse_labelIds.png', 'pedestrian_20161212_094813_gtCoarse_labelIds.png', 'pedestrian_20161212_094945_gtFine_labelIds.png', 'pedestrian_20161212_095022_gtFine_labelIds.png', 'pedestrian_20170225_094512_gtCoarse_labelIds.png', 'pedestrian_20170225_094814_gtCoarse_labelIds.png', 'pedestrian_20170225_094825_gtCoarse_labelIds.png', 'pedestrian_20170225_094838_gtCoarse_labelIds.png', 'pedestrian_20170225_094934_gtCoarse_labelIds.png', 'pedestrian_20170225_095047_gtCoarse_labelIds.png', 'public_20161213_081721_gtFine_labelIds.png', 'public_20161213_081724_gtFine_labelIds.png', 'public_20161213_081801_gtFine_labelIds.png', 'public_20161213_081803_gtFine_labelIds.png', 'public_20161213_081809_gtFine_labelIds.png', 'public_20161213_081817_gtFine_labelIds.png', 'public_20161213_081942_gtFine_labelIds.png', 'public_20161213_081946_gtFine_labelIds.png', 'public_20161213_081950_gtFine_labelIds.png', 'public_20161213_081955_gtFine_labelIds.png', 'public_20161213_081958_gtFine_labelIds.png', 'public_20161213_082012_gtFine_labelIds.png', 'public_20161213_082109_gtFine_labelIds.png', 'public_20161213_082117_gtFine_labelIds.png', 'public_20161213_082127_gtFine_labelIds.png', 'public_20161213_082223_gtFine_labelIds.png', 'public_20161213_082426_gtFine_labelIds.png', 'public_20161213_082429_gtFine_labelIds.png', 'public_20161213_082746_gtFine_labelIds.png', 'public_20161213_082800_gtFine_labelIds.png', 'public_20161213_082805_gtFine_labelIds.png', 'public_20161213_082937_gtFine_labelIds.png', 'public_20161213_082944_gtFine_labelIds.png', 'public_20161213_082948_gtFine_labelIds.png', 'public_20161213_082952_gtFine_labelIds.png', 'public_20161213_083008_gtFine_labelIds.png', 'public_20161213_083206_gtFine_labelIds.png', 'web_012217_fogalbion4_gtCoarse_labelIds.png', 'web_11111490296_c35d8415ff_gtCoarse_labelIds.png', 'web_12072159786_66ec504c8d_gtCoarse_labelIds.png', 'web_13811223744_5e14bfd1db_gtCoarse_labelIds.png', 'web_15593947834_c5711418f3_gtCoarse_labelIds.png', 'web_16488592255_c622130769_gtCoarse_labelIds.png', 'web_20080313_Foggy_gtCoarse_labelIds.png', 'web_20111218_avalon_gtCoarse_labelIds.png', 'web_2144738053_f1a3fb42db_gtCoarse_labelIds.png', 'web_2269771660_d43b11e65e_gtCoarse_labelIds.png', 'web_2371463150_f663cc6d21_gtCoarse_labelIds.png', 'web_2460794106_dbabe29f49_gtCoarse_labelIds.png', 'web_3116608481_a2ebc5768a_gtCoarse_labelIds.png', 'web_3127503343_918edd5ba9_gtCoarse_labelIds.png', 'web_3127503495_bc0955716f_gtCoarse_labelIds.png', 'web_3127505619_8ed5ec8947_gtCoarse_labelIds.png', 'web_3127509033_cd47cd5806_gtCoarse_labelIds.png', 'web_3127510311_f80e608196_gtCoarse_labelIds.png', 'web_3128331518_0a9792c082_gtCoarse_labelIds.png', 'web_3128332316_6803ee04b9_gtCoarse_labelIds.png', 'web_3128333920_1233b35135_gtCoarse_labelIds.png', 'web_3128334390_9a656c6913_gtCoarse_labelIds.png', 'web_3128334652_c3f0ffdb16_gtCoarse_labelIds.png', 'web_3128336934_3757551674_gtCoarse_labelIds.png', 'web_3128338048_3cbb49de9f_gtCoarse_labelIds.png', 'web_32664659360_c21c6c15c5_gtCoarse_labelIds.png', 'web_33032935975_a8b8617c86_gtCoarse_labelIds.png', 'web_3958340651_309c688f2b_gtCoarse_labelIds.png', 'web_3959112536_3a1112e59f_gtCoarse_labelIds.png', 'web_3959114042_b735f81279_gtCoarse_labelIds.png', 'web_4247692808_e8c331417d_gtCoarse_labelIds.png', 'web_5350823_1_gtCoarse_labelIds.png', 'web_5378529177_51ff165684_gtCoarse_labelIds.png', 'web_5402273377_00e789f3ce_gtCoarse_labelIds.png', 'web_6925417403_0d577e62fc_gtCoarse_labelIds.png', 'web_8050286343_fb56b08ce7_gtCoarse_labelIds.png', 'web_8263125502_1fc2c86cc1_gtCoarse_labelIds.png', 'web_8546258268_5aabe6779e_gtCoarse_labelIds.png', 'web_9443635508_ccb844c48d_gtCoarse_labelIds.png', 'web_Foggy_Portland_gtCoarse_labelIds.png', 'web_Foggy_Waldinger_gtCoarse_labelIds.png', 'web_NCS_20160226072105_gtCoarse_labelIds.png', 'web_U137P200T1D308834F12DT_20100315001722_gtCoarse_labelIds.png', 'web_fog_1_gtCoarse_labelIds.png', 'web_fog_5_gtCoarse_labelIds.png', 'web_fog_tcr_gtCoarse_labelIds.png', 'web_foggy_street_gtCoarse_labelIds.png', 'web_img_1055_gtCoarse_labelIds.png', 'web_tim_thumb_gtCoarse_labelIds.png', 'web_tumblr_n3wkxqv7Xs1sp7ozko1_gtCoarse_labelIds.png']
+Namespace(backbone='resnet', out_stride=16, dataset='cityscapes', use_sbd=False, workers=6, base_size=513, crop_size=513, sync_bn=False, freeze_bn=False, loss_type='ce', epochs=120, start_epoch=0, batch_size=12, test_batch_size=12, use_balanced_weights=False, lr=0.001, lr_scheduler='poly', momentum=0.9, weight_decay=0.0005, nesterov=False, no_cuda=False, gpu_ids=[0], seed=1, resume='/home/nikhil/scratch/models/best_deeplabv3plus_mobilenet_cityscapes_os16.pth', checkname='deeplab-resnet', ft=False, eval_interval=1, no_val=False, save_interval=1, densencloss=1e-09, rloss_scale=0.5, sigma_rgb=15.0, sigma_xy=100.0, cuda=True)
+Found 2975 train images
+Found 500 val images
+Found 1525 test images
+DenseNCLoss(sigma_rgb=15.0, sigma_xy=100.0, weight=1e-09, scale_factor=0.5)
+Using poly LR Scheduler!
+=> loaded checkpoint '/home/nikhil/scratch/models/best_deeplabv3plus_mobilenet_cityscapes_os16.pth' (epoch 26000)
+Validation Day time
+Validation:
+[Epoch: 0, numImages:   500]
+Acc:0.9413891574445805, Acc_class:0.714025959717701, mIoU:0.6116928014445155, fwIoU: 0.8963088391074177
+Loss: 0.657
+Night Driving mIOU
+0.28560800864382463
+Dark Zurich mIOU
+0.11998940579705761
+Foggy Driving Dense mIOU
+0.25125957992986964
+Foggy Driving Full mIOU
+0.2763823209995412
+Starting Epoch: 108
+
+=>Epoches 108, learning rate = 0.0001,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9413653468295609, Acc_class:0.715136887044454, mIoU:0.6125192182394287, fwIoU: 0.8963612477414182
+Loss: 0.656
+iteration
+Night Driving mIOU
+0.31286476247347816
+Dark Zurich mIOU
+0.12707511093773338
+Foggy Driving Dense mIOU
+0.26121670602814095
+Foggy Driving Full mIOU
+0.2826282146357421
+
+
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9413598878533197, Acc_class:0.7151711473828747, mIoU:0.6125308712485638, fwIoU: 0.8963568861566349
+Loss: 0.656
+iteration
+Night Driving mIOU
+0.3128836956545176
+Dark Zurich mIOU
+0.1270848625023755
+Foggy Driving Dense mIOU
+0.2611940076237475
+Foggy Driving Full mIOU
+0.28261048338568573
+[Epoch: 108, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 108, numImages:   500]
+Acc:0.9413598878533197, Acc_class:0.7151711473828747, mIoU:0.6125308712485638, fwIoU: 0.8963568861566349
+Loss: 0.656
+epoch
+Night Driving mIOU
+0.3128836956545176
+Dark Zurich mIOU
+0.1270848625023755
+Foggy Driving Dense mIOU
+0.2611940076237475
+Foggy Driving Full mIOU
+0.28261048338568573
+
+=>Epoches 109, learning rate = 0.0001,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9410477695702587, Acc_class:0.7149592676684243, mIoU:0.611557950822419, fwIoU: 0.8959544684252803
+Loss: 0.661
+iteration
+Night Driving mIOU
+0.30471901548910635
+Dark Zurich mIOU
+0.1321009849376696
+Foggy Driving Dense mIOU
+0.2676424164488022
+Foggy Driving Full mIOU
+0.2867180260340534
+
+
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9410446714695945, Acc_class:0.7149778621448942, mIoU:0.6115678452814922, fwIoU: 0.895952503478227
+Loss: 0.661
+iteration
+Night Driving mIOU
+0.30473756229967336
+Dark Zurich mIOU
+0.1320837214358762
+Foggy Driving Dense mIOU
+0.2675950583979356
+Foggy Driving Full mIOU
+0.2867038634115752
+[Epoch: 109, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 109, numImages:   500]
+Acc:0.9410446714695945, Acc_class:0.7149778621448942, mIoU:0.6115678452814922, fwIoU: 0.895952503478227
+Loss: 0.661
+epoch
+Night Driving mIOU
+0.30473756229967336
+Dark Zurich mIOU
+0.1320837214358762
+Foggy Driving Dense mIOU
+0.2675950583979356
+Foggy Driving Full mIOU
+0.2867038634115752
+
+=>Epoches 110, learning rate = 0.0001,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9404741908994162, Acc_class:0.7136928292966718, mIoU:0.6090465695691544, fwIoU: 0.8951588603981637
+Loss: 0.669
+iteration
+Night Driving mIOU
+0.31025486598573027
+Dark Zurich mIOU
+0.1368832630817385
+Foggy Driving Dense mIOU
+0.255608262926276
+Foggy Driving Full mIOU
+0.2899027737896939
+
+
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9404717071529913, Acc_class:0.7136948218115657, mIoU:0.6090492865949794, fwIoU: 0.8951572534099648
+Loss: 0.669
+iteration
+Night Driving mIOU
+0.31027213242595336
+Dark Zurich mIOU
+0.136861094513979
+Foggy Driving Dense mIOU
+0.25556223262550304
+Foggy Driving Full mIOU
+0.28987647790496607
+[Epoch: 110, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 110, numImages:   500]
+Acc:0.9404717071529913, Acc_class:0.7136948218115657, mIoU:0.6090492865949794, fwIoU: 0.8951572534099648
+Loss: 0.669
+epoch
+Night Driving mIOU
+0.31027213242595336
+Dark Zurich mIOU
+0.136861094513979
+Foggy Driving Dense mIOU
+0.25556223262550304
+Foggy Driving Full mIOU
+0.28987647790496607
+
+=>Epoches 111, learning rate = 0.0001,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.9397887295450975, Acc_class:0.7119715030544918, mIoU:0.6056779571124318, fwIoU: 0.8942021189332223
+Loss: 0.679
+iteration
+Night Driving mIOU
+0.31252774271650224
+Dark Zurich mIOU
+0.14145849214357062
+Foggy Driving Dense mIOU
+0.25594842558653963
+Foggy Driving Full mIOU
+0.2919314138680074
+
+
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.939787904555119, Acc_class:0.7119764524291186, mIoU:0.6056870715745242, fwIoU: 0.8942020730370805
+Loss: 0.679
+iteration
+Night Driving mIOU
+0.3125408575850245
+Dark Zurich mIOU
+0.14144051693668844
+Foggy Driving Dense mIOU
+0.2559001911761496
+Foggy Driving Full mIOU
+0.29191399056569306
+[Epoch: 111, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 111, numImages:   500]
+Acc:0.939787904555119, Acc_class:0.7119764524291186, mIoU:0.6056870715745242, fwIoU: 0.8942020730370805
+Loss: 0.679
+epoch
+Night Driving mIOU
+0.3125408575850245
+Dark Zurich mIOU
+0.14144051693668844
+Foggy Driving Dense mIOU
+0.2559001911761496
+Foggy Driving Full mIOU
+0.29191399056569306
+
+=>Epoches 112, learning rate = 0.0001,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9389348649172818, Acc_class:0.7098516943234955, mIoU:0.6014318168428041, fwIoU: 0.8929858112312103
+Loss: 0.691
+iteration
+Night Driving mIOU
+0.31262128154286445
+Dark Zurich mIOU
+0.14511904820263508
+Foggy Driving Dense mIOU
+0.24339727177064197
+Foggy Driving Full mIOU
+0.2925609571970698
+
+
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9389343997633578, Acc_class:0.7098509668529595, mIoU:0.6014411534825129, fwIoU: 0.8929855687046061
+Loss: 0.691
+iteration
+Night Driving mIOU
+0.3126343003198355
+Dark Zurich mIOU
+0.1451169306759926
+Foggy Driving Dense mIOU
+0.24335725070793526
+Foggy Driving Full mIOU
+0.2925317739926305
+[Epoch: 112, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 112, numImages:   500]
+Acc:0.9389343997633578, Acc_class:0.7098509668529595, mIoU:0.6014411534825129, fwIoU: 0.8929855687046061
+Loss: 0.691
+epoch
+Night Driving mIOU
+0.3126343003198355
+Dark Zurich mIOU
+0.1451169306759926
+Foggy Driving Dense mIOU
+0.24335725070793526
+Foggy Driving Full mIOU
+0.2925317739926305
+
+=>Epoches 113, learning rate = 0.0001,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9379746643471225, Acc_class:0.7073500371690682, mIoU:0.5967028723884963, fwIoU: 0.8916197359645884
+Loss: 0.704
+iteration
+Night Driving mIOU
+0.3120225246282855
+Dark Zurich mIOU
+0.1485299566220955
+Foggy Driving Dense mIOU
+0.24360627341118773
+Foggy Driving Full mIOU
+0.29160997303372627
+
+
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9379748662063726, Acc_class:0.7073448411602363, mIoU:0.5967111808418908, fwIoU: 0.8916199151520332
+Loss: 0.704
+iteration
+Night Driving mIOU
+0.3120172338325373
+Dark Zurich mIOU
+0.14850954318940612
+Foggy Driving Dense mIOU
+0.24356125197869266
+Foggy Driving Full mIOU
+0.29157822544046197
+[Epoch: 113, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 113, numImages:   500]
+Acc:0.9379748662063726, Acc_class:0.7073448411602363, mIoU:0.5967111808418908, fwIoU: 0.8916199151520332
+Loss: 0.704
+epoch
+Night Driving mIOU
+0.3120172338325373
+Dark Zurich mIOU
+0.14850954318940612
+Foggy Driving Dense mIOU
+0.24356125197869266
+Foggy Driving Full mIOU
+0.29157822544046197
+
+=>Epoches 114, learning rate = 0.0001,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9369163777344052, Acc_class:0.7043005680248177, mIoU:0.5913018660937882, fwIoU: 0.8901029478171237
+Loss: 0.718
+iteration
+Night Driving mIOU
+0.3104997368018509
+Dark Zurich mIOU
+0.15170760782781842
+Foggy Driving Dense mIOU
+0.2430274307892313
+Foggy Driving Full mIOU
+0.28991521655905256
+
+
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9369171325124707, Acc_class:0.7042954247550304, mIoU:0.5913118656193015, fwIoU: 0.8901035999597067
+Loss: 0.718
+iteration
+Night Driving mIOU
+0.3104994231397184
+Dark Zurich mIOU
+0.15170872979494335
+Foggy Driving Dense mIOU
+0.2429871923396099
+Foggy Driving Full mIOU
+0.2898979240321565
+[Epoch: 114, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 114, numImages:   500]
+Acc:0.9369171325124707, Acc_class:0.7042954247550304, mIoU:0.5913118656193015, fwIoU: 0.8901035999597067
+Loss: 0.718
+epoch
+Night Driving mIOU
+0.3104994231397184
+Dark Zurich mIOU
+0.15170872979494335
+Foggy Driving Dense mIOU
+0.2429871923396099
+Foggy Driving Full mIOU
+0.2898979240321565
+
+=>Epoches 115, learning rate = 0.0001,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9357697294290899, Acc_class:0.7004581482609982, mIoU:0.5850246365587213, fwIoU: 0.8884663154429107
+Loss: 0.733
+iteration
+Night Driving mIOU
+0.3084408816939965
+Dark Zurich mIOU
+0.1549605046276117
+Foggy Driving Dense mIOU
+0.24040600194847767
+Foggy Driving Full mIOU
+0.28767759681056565
+
+
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9357707036193837, Acc_class:0.7004578605364529, mIoU:0.58503692677966, fwIoU: 0.8884669755072209
+Loss: 0.733
+iteration
+Night Driving mIOU
+0.3084428796526721
+Dark Zurich mIOU
+0.1549492568432736
+Foggy Driving Dense mIOU
+0.24038502443948537
+Foggy Driving Full mIOU
+0.28766367342097715
+[Epoch: 115, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 115, numImages:   500]
+Acc:0.9357707036193837, Acc_class:0.7004578605364529, mIoU:0.58503692677966, fwIoU: 0.8884669755072209
+Loss: 0.733
+epoch
+Night Driving mIOU
+0.3084428796526721
+Dark Zurich mIOU
+0.1549492568432736
+Foggy Driving Dense mIOU
+0.24038502443948537
+Foggy Driving Full mIOU
+0.28766367342097715
+
+=>Epoches 116, learning rate = 0.0000,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9345662972390798, Acc_class:0.6963937682122817, mIoU:0.578570083159128, fwIoU: 0.8867574665111777
+Loss: 0.748
+iteration
+Night Driving mIOU
+0.306686689837694
+Dark Zurich mIOU
+0.15135001385359326
+Foggy Driving Dense mIOU
+0.2375913332397898
+Foggy Driving Full mIOU
+0.2851710502409868
+
+
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9345662094741884, Acc_class:0.6963863103804909, mIoU:0.5785736894950965, fwIoU: 0.8867563235810172
+Loss: 0.748
+iteration
+Night Driving mIOU
+0.3066862013643281
+Dark Zurich mIOU
+0.15134871132577357
+Foggy Driving Dense mIOU
+0.23756962946729543
+Foggy Driving Full mIOU
+0.2851552142781045
+[Epoch: 116, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 116, numImages:   500]
+Acc:0.9345662094741884, Acc_class:0.6963863103804909, mIoU:0.5785736894950965, fwIoU: 0.8867563235810172
+Loss: 0.748
+epoch
+Night Driving mIOU
+0.3066862013643281
+Dark Zurich mIOU
+0.15134871132577357
+Foggy Driving Dense mIOU
+0.23756962946729543
+Foggy Driving Full mIOU
+0.2851552142781045
+
+=>Epoches 117, learning rate = 0.0000,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9333436269848886, Acc_class:0.6919392347406002, mIoU:0.5717297201536137, fwIoU: 0.8850362849905687
+Loss: 0.765
+iteration
+Night Driving mIOU
+0.3042224929770797
+Dark Zurich mIOU
+0.14646075308606626
+Foggy Driving Dense mIOU
+0.2352881507070776
+Foggy Driving Full mIOU
+0.2824908276814204
+
+
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9333440570328562, Acc_class:0.6919375465372555, mIoU:0.5717366744998835, fwIoU: 0.8850360533710837
+Loss: 0.765
+iteration
+Night Driving mIOU
+0.3042203738449208
+Dark Zurich mIOU
+0.14646300297340004
+Foggy Driving Dense mIOU
+0.23528151652134865
+Foggy Driving Full mIOU
+0.282481431639761
+[Epoch: 117, numImages:    21]
+Loss: -0.004
+Validation:
+[Epoch: 117, numImages:   500]
+Acc:0.9333440570328562, Acc_class:0.6919375465372555, mIoU:0.5717366744998835, fwIoU: 0.8850360533710837
+Loss: 0.765
+epoch
+Night Driving mIOU
+0.3042203738449208
+Dark Zurich mIOU
+0.14646300297340004
+Foggy Driving Dense mIOU
+0.23528151652134865
+Foggy Driving Full mIOU
+0.282481431639761
+
+=>Epoches 118, learning rate = 0.0000,                 previous best = 0.7207
+
+
+Validation:
+[Epoch: 118, numImages:   500]
+Acc:0.9321219660269477, Acc_class:0.6876248269503185, mIoU:0.5650953206916984, fwIoU: 0.8833377741757854
+Loss: 0.781
+iteration
+Night Driving mIOU
